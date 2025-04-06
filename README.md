@@ -38,21 +38,75 @@ A fully featured and modular blog backend built with **Django** and **Django RES
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
-**Clone the repository**
+Follow the steps below to set up the project locally:
 
+### 1. 📁 Clone the repository
 ```bash
-git clone https://github.com/hadisehshad/django_blog.git
+git clone git@github.com:USERNAME/PROJECT_NAME.git
 cd django_blog
 ```
+
+### 2. 🐍 Create a virtual environment
+It’s recommended to use a virtual environment to isolate dependencies.
+
+```bash
+# Create virtual environment
+
+python -m venv venv
+
+# Activate the virtual environment
+
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. 📦 Install project dependencies
+```bash
+pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+### 4. ⚙️ Apply database migrations
+```bash
+python manage.py makemigrations
+
+python manage.py migrate
+```
+
+### 5. 🔐 Create a superuser (for accessing the admin panel)
+```bash
+python manage.py createsuperuser
+```
+
+### 6. 🚀 Run the development server
+```bash
+python manage.py runserver
+```
+
+Visit the app at [http://127.0.0.1:8000](http://127.0.0.1:8000) 
+ 
+Visit the admin panel at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
 
 ---
 
 ## 🔐 Admin Panel Access
 
-Visit: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)  
-Login with your superuser credentials.
+To access the full site locally, visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+To access the Django admin panel directly, go to: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+
+Login using your superuser credentials created with:
+```bash
+python manage.py createsuperuser
+```
+
 
 ---
 
