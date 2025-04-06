@@ -94,19 +94,6 @@ Visit the app at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 Visit the admin panel at [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 
----
-
-## 🔐 Admin Panel Access
-
-To access the full site locally, visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
-To access the Django admin panel directly, go to: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
-
-Login using your superuser credentials created with:
-```bash
-python manage.py createsuperuser
-```
-
 
 ---
 
