@@ -5,7 +5,7 @@ A fully featured and modular blog backend built with **Django** and **Django RES
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/hadisehshad/django_blog?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/hadisehshad/django_blog?style=for-the-badge" alt="MIT License"/>
   <img src="https://img.shields.io/github/stars/hadisehshad/django_blog?style=for-the-badge" />
   <img src="https://img.shields.io/github/forks/hadisehshad/django_blog?style=for-the-badge" />
   <img src="https://img.shields.io/github/last-commit/hadisehshad/django_blog?style=for-the-badge" />
