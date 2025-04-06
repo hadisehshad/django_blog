@@ -20,6 +20,4 @@ database.sqlite
 *.tmp
 *.swp
 config/settings.py
-db.sqlite3
-*.sqlite3
 *.pem
