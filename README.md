@@ -2,14 +2,7 @@
 
 A fully featured and modular blog backend built with **Django** and **Django REST Framework**, designed for scalable API development. This project includes robust user authentication with JWT, password reset via SMS, token blacklisting, and complete blog post CRUD functionalities. Ideal for learning or extending into a full production system.
 
----
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/hadisehshad/django_blog?style=for-the-badge" alt="MIT License"/>
-  <img src="https://img.shields.io/github/stars/hadisehshad/django_blog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/hadisehshad/django_blog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/hadisehshad/django_blog?style=for-the-badge" />
-</p>
 
 ---
 
