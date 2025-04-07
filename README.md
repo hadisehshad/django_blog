@@ -1,4 +1,4 @@
-# 📝 Django Blogify
+# 📝 Django Blog
 
 A fully featured and modular blog backend built with **Django** and **Django REST Framework**, designed for scalable API development. This project includes robust user authentication with JWT, password reset via SMS, token blacklisting, and complete blog post CRUD functionalities. Ideal for learning or extending into a full production system.
 
@@ -26,9 +26,7 @@ A fully featured and modular blog backend built with **Django** and **Django RES
   <img src="https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST API-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
-</p>
-
+  
 ---
 
 ## 📦 Installation & Setup
